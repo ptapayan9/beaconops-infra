@@ -1,0 +1,24 @@
+# Terraform working files and state
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform.tfstate.lock.info
+crash.log
+tfplan
+crash.*.log
+
+# Local secrets and configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Go build and test output
+bin/
+coverage.out
+
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/
